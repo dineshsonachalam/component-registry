@@ -1,0 +1,28 @@
+{
+  "name": "bulk_downloader",
+  "language": "java",
+  "runtime_platform": "***",
+  "orchestration_platform": "***",
+  "orchestration_phase": "***",
+  "artifacts": [
+    {
+      "name": "release",
+      "repo": "java-platform",
+      "artifact_type": "jar",
+      "artifact_path": "***"
+    },
+    {
+      "name": "chef_release",
+      "repo": "chef-repo",
+      "artifact_type": "chef",
+      "artifact_path": "***"
+    },
+    {
+      "name": "docker_release",
+      "repo": "chef-repo",
+      "artifact_type": "image",
+      "artifact_path": "***"
+    }
+  ],
+  "documentation": "https://tealium.atlassian.net/***"
+}
